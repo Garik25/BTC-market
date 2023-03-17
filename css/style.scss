@@ -1039,6 +1039,23 @@ footer{
       
     }
   }
+  .footer_end {
+    text-align: center;
+
+    div{
+      margin: 20px auto;
+      display: flex;
+      gap: 20px;
+      p{
+        text-align: center;
+
+      }
+    }
+    p{
+      
+
+    }
+  }
 }
 
 
