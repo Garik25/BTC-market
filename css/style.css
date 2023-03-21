@@ -663,13 +663,24 @@ footer .footer_end {
   text-align: center;
 }
 footer .footer_end div {
-  margin: 20px auto;
   display: flex;
-  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
 }
 footer .footer_end div p {
-  text-align: center;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #181818;
 }
+footer .footer_end p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #181818;
+}
+
 ul {
   padding: 0;
   margin: 0;

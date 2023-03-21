@@ -1041,22 +1041,32 @@ footer{
   }
   .footer_end {
     text-align: center;
-
     div{
-      margin: 20px auto;
       display: flex;
-      gap: 20px;
-      p{
-        text-align: center;
+     justify-content: center;
+     align-items: center;
+     gap: 40px;
 
-      }
+
+     p{
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 12px;
+      color: $firstBlack;
+     }
     }
     p{
-      
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 12px;
+      color: $firstBlack;
+    }
 
+    
+   
     }
   }
-}
+
 
 
 
