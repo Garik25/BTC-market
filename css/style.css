@@ -211,6 +211,18 @@ main .markets_section .markets_table {
   overflow-y: hidden;
   overflow-x: auto;
 }
+main .markets_section .markets_table::-webkit-scrollbar {
+  height: 8px;
+}
+main .markets_section .markets_table::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+main .markets_section .markets_table::-webkit-scrollbar-thumb {
+  background: #888;
+}
+main .markets_section .markets_table::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
 main .markets_section .markets_table table {
   width: 1136px;
   border-collapse: collapse;
@@ -285,9 +297,9 @@ main .why__btc__markets .wbm__items .wbm__item p {
   line-height: 24px;
   letter-spacing: 0.2px;
 }
-@media screen and (max-width: 850px) {
-  main .why__btc__markets .wbm__items {
-    flex-wrap: wrap;
+@media screen and (max-width: 920px) {
+  main .why__btc__markets .wbm__items .markets_table {
+    overflow-y: auto;
   }
 }
 main .template__section {

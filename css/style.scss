@@ -381,7 +381,27 @@ main {
 
     .markets_table {
       overflow-y: hidden;
-      overflow-x: auto;
+     
+				overflow-x: auto;
+
+				&::-webkit-scrollbar {
+					height: 8px;
+				}
+
+				&::-webkit-scrollbar-track {
+					background: #f1f1f1;
+				}
+
+				&::-webkit-scrollbar-thumb {
+					background: #888;
+					// background: $green;
+				}
+
+				&::-webkit-scrollbar-thumb:hover {
+					background: #555;
+					// background: #0ca874;;
+				}
+    
 
       table {
         width: 1136px;
@@ -449,6 +469,7 @@ main {
         }
 
       }
+     
     }
 
 
@@ -496,8 +517,10 @@ main {
         }
       }
 
-      @media screen and (max-width:$mobila) {
-        flex-wrap: wrap;
+      @media screen and (max-width:920px) {
+        .markets_table{
+          overflow-y: auto;
+        }
 
       }
 
